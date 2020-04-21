@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/fangyuan99/fangyuan99.github.io/"/>
-  <updated>2020-04-20T15:15:38.861Z</updated>
+  <updated>2020-04-21T10:57:03.712Z</updated>
   <id>https://github.com/fangyuan99/fangyuan99.github.io/</id>
   
   <author>
@@ -17,36 +17,86 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇博客</title>
-    <link href="https://github.com/fangyuan99/fangyuan99.github.io/2018/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
-    <id>https://github.com/fangyuan99/fangyuan99.github.io/2018/11/30/第一篇博客.html</id>
-    <published>2018-11-30T09:30:00.000Z</published>
-    <updated>2020-04-20T15:15:38.861Z</updated>
+    <title>部署在gitee上的hexo博客的快捷脚本</title>
+    <link href="https://github.com/fangyuan99/fangyuan99.github.io/2020/04/21/%E9%83%A8%E7%BD%B2%E5%9C%A8gitee%E4%B8%8A%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BF%AB%E6%8D%B7%E8%84%9A%E6%9C%AC.html"/>
+    <id>https://github.com/fangyuan99/fangyuan99.github.io/2020/04/21/部署在gitee上的hexo博客的快捷脚本.html</id>
+    <published>2020-04-21T09:08:48.000Z</published>
+    <updated>2020-04-21T10:57:03.712Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
+      &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;h3 id=&quot;python文件准备&quot;&gt;&lt;a href=&quot;#python文件准备&quot; class=&quot;headerlink&quot; title=&quot;python文件准备&quot;&gt;&lt;/a&gt;python文件准备&lt;/h3&gt;&lt;h4 id=&quot;基础环境&quot;&gt;&lt;a href=&quot;#基础环境&quot; class=&quot;headerlink&quot; title=&quot;基础环境&quot;&gt;&lt;/a&gt;基础环境&lt;/h4&gt;
     
     </summary>
     
-      <category term="develop" scheme="https://github.com/fangyuan99/fangyuan99.github.io/categories/develop/"/>
-    
-      <category term="test" scheme="https://github.com/fangyuan99/fangyuan99.github.io/categories/develop/test/"/>
+      <category term="博客" scheme="https://github.com/fangyuan99/fangyuan99.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="linux" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/linux/"/>
+      <category term="博客" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="os" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/os/"/>
+      <category term="脚本" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/%E8%84%9A%E6%9C%AC/"/>
     
-      <category term="java" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/java/"/>
+  </entry>
+  
+  <entry>
+    <title>上传本地项目到github</title>
+    <link href="https://github.com/fangyuan99/fangyuan99.github.io/2020/04/05/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E5%88%B0github.html"/>
+    <id>https://github.com/fangyuan99/fangyuan99.github.io/2020/04/05/上传本地项目到github.html</id>
+    <published>2020-04-05T01:35:05.000Z</published>
+    <updated>2020-04-21T10:57:34.948Z</updated>
     
-      <category term="python" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/python/"/>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;怎么用git工具上传本地项目到GitHub或者码云（以码云为例）&quot;&gt;&lt;a href=&quot;#怎么用git工具上传本地项目到GitHub或者码云（以码云为例）&quot; class=&quot;headerlink&quot; title=&quot;怎么用git工具上传本地项目到GitHub或者码云（以码云为例）&quot;&gt;&lt;/a&gt;怎么用git工具上传本地项目到GitHub或者码云（以码云为例）&lt;/h2&gt;&lt;h3 id=&quot;先新建一个仓库，仓库名称和路径是必填&quot;&gt;&lt;a href=&quot;#先新建一个仓库，仓库名称和路径是必填&quot; class=&quot;headerlink&quot; title=&quot;先新建一个仓库，仓库名称和路径是必填&quot;&gt;&lt;/a&gt;先新建一个仓库，仓库名称和路径是必填&lt;/h3&gt;
+    
+    </summary>
+    
+      <category term="工具" scheme="https://github.com/fangyuan99/fangyuan99.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="git" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>贪吃蛇</title>
+    <link href="https://github.com/fangyuan99/fangyuan99.github.io/2020/03/30/%E8%B4%AA%E5%90%83%E8%9B%87.html"/>
+    <id>https://github.com/fangyuan99/fangyuan99.github.io/2020/03/30/贪吃蛇.html</id>
+    <published>2020-03-30T12:48:36.000Z</published>
+    <updated>2020-04-21T10:58:18.041Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;基于easyx库用c语言开发的贪吃蛇&quot;&gt;&lt;a href=&quot;#基于easyx库用c语言开发的贪吃蛇&quot; class=&quot;headerlink&quot; title=&quot;基于easyx库用c语言开发的贪吃蛇&quot;&gt;&lt;/a&gt;基于easyx库用c语言开发的贪吃蛇&lt;/h1&gt;&lt;h4 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h4&gt;&lt;p&gt;用easyx图形库和c语言编写的贪吃蛇小游戏，有三种困难模式，可以存储历史最高分，加上了bgm和暂停bgm的功能&lt;br&gt;码云链接:&lt;a href=&quot;https://gitee.com/fangyuan99/snake&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://gitee.com/fangyuan99/snake&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="项目" scheme="https://github.com/fangyuan99/fangyuan99.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+      <category term="游戏" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+      <category term="C" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo使用淘宝源的命令</title>
+    <link href="https://github.com/fangyuan99/fangyuan99.github.io/2020/03/30/hexo%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9D%E6%BA%90%E7%9A%84%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://github.com/fangyuan99/fangyuan99.github.io/2020/03/30/hexo使用淘宝源的命令.html</id>
+    <published>2020-03-30T08:05:18.000Z</published>
+    <updated>2020-04-21T10:39:25.551Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们知道直接配置hexo网络会非常卡，所以下面提供一种使用淘宝源的方法，可以有效提升下载速度&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="博客" scheme="https://github.com/fangyuan99/fangyuan99.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="博客" scheme="https://github.com/fangyuan99/fangyuan99.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
